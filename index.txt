@@ -1,1 +1,75 @@
-Merhaba  
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merve'nin Sitesi</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .btn {
+            background: white;
+            color: #764ba2;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #ddd;
+        }
+
+        section {
+            background: white;
+            color: #333;
+            padding: 40px;
+        }
+
+        footer {
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Merhaba 👋</h1>
+    <p>Ben Merve, Web Tasarım Öğrencisiyim</p>
+    <button class="btn" onclick="alert('Hoş geldin!')">Bana Tıkla</button>
+</header>
+
+<section>
+    <h2>Hakkımda</h2>
+    <p>Frontend geliştirme öğreniyorum ve GitHub kullanmayı yeni öğrendim 🚀</p>
+</section>
+
+<footer>
+    © 2026 Merve Gundas
+</footer>
+
+</body>
+</html>
